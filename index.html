@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Assets/logo.png">
+    <title>Arrow Nation</title>
+</head>
+
+<body>
+
+    <!-- preloader starts here -->
+
+<!--     
+    <div id="preloader">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div> -->
+
+
+
+    
+    <!-- Navbar starts here -->
+
+    <section class="navbar">
+        <div class="nav-container">
+            <img class="logo" src="./Assets/logo.png" alt="logo">
+            <div class="search-container">
+                <input class="search-box" type="text" placeholder="e.g. science">
+                <button type="button" class="search-btn"> Search </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- catagories section starts here -->
+
+    <section class="catagory-container">
+        <ul class="list">
+            <li onclick="onNavItemClick('travel')" id="travel" class="list-items">Travel</li>
+            <li onclick="onNavItemClick('sports')" id="sports" class="list-items">Sports</li>
+            <li onclick="onNavItemClick('food')" id="food" class="list-items">Food</li>
+            <li onclick="onNavItemClick('art')" id="art" class="list-items">Art</li>
+        </ul>
+    </section>
+
+
+
+
+    <!-- website heading starts here -->
+
+    <section class="arrow-container">
+        <p>Arrow Nation</p>
+        <div class="line"></div>
+    </section>
+
+
+
+
+    <!-- cards section starts here -->
+
+    <main id="container" >
+        
+    </main>
+
+    <template id="template-news-card">
+
+        <div class="card-container">
+            <div class="image-container">
+                <img id="card-img" src="https://via.placeholder.com/400x200" alt="">
+            </div>
+            <div class="card-content">
+                <p class="heading"> consectetur adipisicing elit. Non, esse! headlines</p>
+                <p class="date">End Gadget 02-30-2024</p>
+                <p class="description"> dolore est aliquam totam! Dolorem qui ratione sed pariatur sapiente ea corporis?elit. Perspiciat</p>
+            </div>
+        </div>
+
+    </template>
+
+
+
+
+
+
+  <!-- footer section starts here -->
+
+
+  <section class="footer-container">
+    
+        <img class="footer-img" src="./Assets/logodark 1.png" alt="">
+
+  </section>
+  
+
+
+  <!-- copyright section  -->
+
+  
+
+
+  <div class="copyright">
+    <p>© 2024 Arrow Nation.</p>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
